@@ -1,0 +1,73 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'IRANYekan',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  margin: auto;
+  max-width: 1200px;
+  min-height: 100vh;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.MuiInputLabel-root {
+  color: rgb(128, 128, 128) !important;
+  font-family: 'IRANYekan' !important;
+  font-weight: 400 !important;
+}
+
+.radioGrouop{
+  font-family: 'IRANYekan' !important;
+  font-weight: 500 !important;
+  color: rgb(128, 128, 128) !important;
+  margin-right: 10px;
+}
+.error{
+  border-color: red;
+}
+
+.MuiStepLabel-labelContainer span {
+  margin-right: 3px;
+}
+
+.clickable{
+  cursor: pointer;
+  color: black;
+}
+
+.disable{
+  color: rgb(128, 128, 128);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.container{
+  background-color:#fff;
+  border-radius:16px;
+  margin-top: 2px;
+  padding:24px;
+  box-shadow: rgba(145, 158, 171, 0.2) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+}
+
+.MuiFormControlLabel-root{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+
+
